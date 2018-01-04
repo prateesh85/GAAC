@@ -1,0 +1,64 @@
+.middle-content {
+	width: 100%;
+}
+.welcomeNote {
+	font-size: 18px;
+	margin-bottom: 54px;
+	text-align: center;
+	margin: 50px 0px 34px;
+}
+.welcomeNote span {
+	display: block;
+	font-size: 20px;
+}
+p.introHead {
+	font-size: 18px;
+	padding: 10px 10px;
+	text-align: center;
+	display: table;
+	margin: 0px auto 10px;
+	border-bottom: 3px solid #ffe600;
+}
+.introPara {
+	text-align: center;
+	width: 47%;
+	margin: 10px auto 50px;
+	line-height: 24px;
+}
+.sectors ul {
+	list-style: none;
+	margin: 0px 0 0;
+	padding: 0px;
+}
+.sectors ul li {
+	padding: 4px 20px;
+	color: #fff;
+	display: table-cell;
+	cursor: pointer;
+	font-size: 18px;
+	vertical-align: top;
+	text-align: center;
+}
+.home-icon {
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	position: relative;
+}
+.home-icon.sectorImg {
+	background-image: url(/../assets/images/Sector.png);
+}
+.home-icon.practiceImg {
+	background-image: url(/../assets/images/Practice.png);
+}
+.home-icon.assetTypeImg {
+	background-image: url(/../assets/images/AssetType.png);
+}
+.sectors {
+	display: table;
+	margin: 20px auto;
+}

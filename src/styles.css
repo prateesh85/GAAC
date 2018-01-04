@@ -1,0 +1,161 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+	font-family: 'noto_regular';
+	src: url('/assets/fonts/notosans-regular-webfont.eot');
+	src: url('/assets/fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/notosans-regular-webfont.woff2') format('woff2'),  url('/assets/fonts/notosans-regular-webfont.woff') format('woff'),  url('/assets/fonts/notosans-regular-webfont.ttf') format('truetype'),  url('/assets/fonts/notosans-regular-webfont.svg#noto_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'noto_bold';
+	src: url('/assets/fonts/notosans-bold-webfont.eot');
+	src: url('/assets/fonts/notosans-bold-webfont.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/notosans-bold-webfont.woff2') format('woff2'),  url('/assets/fonts/notosans-bold-webfont.woff') format('woff'),  url('/assets/fonts/notosans-bold-webfont.ttf') format('truetype'),  url('/assets/fonts/notosans-bold-webfont.svg#noto_bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'noto_sansbold_italic';
+	src: url('/assets/fonts/notosans-bolditalic-webfont.eot');
+	src: url('/assets/fonts/notosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/notosans-bolditalic-webfont.woff2') format('woff2'),  url('/assets/fonts/notosans-bolditalic-webfont.woff') format('woff'),  url('/assets/fonts/notosans-bolditalic-webfont.ttf') format('truetype'),  url('/assets/fonts/notosans-bolditalic-webfont.svg#noto_sansbold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	background: url(/assets/images/background.jpg) no-repeat #ccc;
+	font-family: 'noto_regular';
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+	background-position: 0px 19%;
+	overflow: hidden;
+}
+input, select {
+	outline: none !important;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+a:active, a:hover {
+	text-decoration: none;
+}
+.wrapper {
+	margin-top: 54px;
+	position: relative;
+	height: 100%;
+	margin-left: 75px;
+}
+.container {
+	position: relative;
+	height: 100%;
+	min-width: 960px;
+	overflow: auto;
+}
+.header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border: none;
+	position: fixed;
+	z-index: 11;
+	width: 100%;
+	border-radius: 0px;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+	margin-bottom: 0px;
+	background-color: rgba(51, 51, 51, 1);
+	color: #FFF;
+}
+.logo {
+	width: 5%;
+	padding: 0 0px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+.sitecap {
+	width: 95%;
+	text-align: center;
+	font-size: 22px;
+	padding: 14px 0 0;
+}
+.sidepanel-nav {
+	background-color: rgba(57, 57, 57, 1);
+	height: 100%;
+	width: 75px;
+	position: fixed;
+	left: 0px;
+	z-index: 10;
+	top: 55px;
+}
+.nav-links {
+	margin: 0px auto;
+	width: 100%;
+	padding: 0px;
+}
+.nav-links li {
+	padding: 12px;
+	cursor: pointer;
+	font-size: 12px;
+	border-bottom: 1px solid #666;
+	text-align: center;
+	display: block;
+}
+.nav-icon .icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav-icon .icon.home {
+	background-image: url(/assets/images/home.png);
+}
+.nav-icon .icon.fav {
+	background-image: url(/assets/images/favourite.png);
+}
+.nav-icon .icon.search {
+	background-image: url(/assets/images/search.png);
+}
+.nav-icon .icon.info {
+	background-image: url(/assets/images/gdsadvs.png);
+	background-size: 28px;
+}
+.nav-icon .icon.feed {
+	background-image: url(/assets/images/feedback.png);
+}
+.nav-links li.active {
+	color: #ffe600;
+}
+/* active menu*/
+.nav-links li.active .nav-icon .icon.home {
+	background-image: url(/assets/images/home-active.png);
+}
+.nav-links li.active .nav-icon .icon.fav {
+	background-image: url(/assets/images/favourite-active.png);
+}
+.nav-links li.active .nav-icon .icon.search {
+	background-image: url(/assets/images/serach-active.png);
+}
+.nav-links li.active .nav-icon .icon.info {
+	background-image: url(/assets/images/gdsadvs-active.png);
+	background-size: 28px;
+}
+.nav-links li.active .nav-icon .icon.feed {
+	background-image: url(/assets/images/feedback-active.png);
+}
